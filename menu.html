@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Morrow Café · Menu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">M</span> Morrow Café</a>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu ☰</button>
+  <nav id="navLinks" aria-label="Main">
+    <a href="index.html">Home</a>
+    <a href="menu.html" class="active">Menu</a>
+  </nav>
+</header>
+
+<main>
+  <!-- PAGE TITLE BAND -->
+  <section class="page-title">
+    <p class="eyebrow">Freshly made</p>
+    <h1>Our <em>menu</em></h1>
+    <p>A few simple favorites, made with care.</p>
+  </section>
+
+  <!-- MENU CARDS (JavaScript fills this in from script.js) -->
+  <section class="menu-wrap">
+    <p class="saved-count" aria-live="polite">Saved items: <span id="savedCount">0</span></p>
+    <div class="menu-grid" id="menuGrid"></div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="cta">
+    <h2>Something for everyone</h2>
+    <p>Oat milk and decaf coffee are available. Ask our team about today's pastries.</p>
+    <a class="btn" href="index.html">Back to home</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <strong>Morrow Café</strong>
+  <span>Good coffee, kindly made.</span>
+  <span>© 2025</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

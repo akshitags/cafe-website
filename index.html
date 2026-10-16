@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Morrow Café · Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION (same on both pages) -->
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">M</span> Morrow Café</a>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu ☰</button>
+  <nav id="navLinks" aria-label="Main">
+    <a href="index.html" class="active">Home</a>
+    <a href="menu.html">Menu</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO: green text panel + photo -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Your neighborhood café</p>
+      <h1>Good coffee, <em>good moments.</em></h1>
+      <p class="hero-copy">Morrow Café is a friendly place to enjoy fresh coffee, simple food, and time with friends.</p>
+      <a class="btn" href="menu.html">View our menu</a>
+    </div>
+    <!-- Save your own café photo as cafe.jpg in the same folder -->
+    <div class="hero-img"><img src="cafe.jpg" alt="Inside Morrow Café" onerror="this.style.display='none'"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <div>
+      <p class="eyebrow dark">About us</p>
+      <h2>A simple place to slow down.</h2>
+    </div>
+    <p>We created Morrow Café for students, local workers, families, and anyone who enjoys great coffee in a relaxed space.<br>
+       Our beans are roasted locally, and our pastries are baked fresh each morning.</p>
+  </section>
+
+  <!-- VISIT BAND -->
+  <section class="visit">
+    <h2>Come and visit</h2>
+    <div>
+      <p class="label">Address</p>
+      <p>0000 XXXX<br>YYYY,ZZZZ</p>
+    </div>
+    <div>
+      <p class="label">Opening hours</p>
+      <p>Monday–Friday: 9am–7pm<br>Saturday–Sunday: 10am–9pm</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <strong>Morrow Café</strong>
+  <span>Good coffee, kindly made.</span>
+  <span>© 2026</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
